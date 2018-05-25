@@ -14,4 +14,8 @@ public class Services{
     public static func sayHello() -> String{
         return "Hello"
     }
+    
+    public static func sayHelloAgain() -> String{
+        return "HelloAgain"
+    }
 }

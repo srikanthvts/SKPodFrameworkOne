@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SKPodFrameworkOne"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = " SKPodFrameworkOne. SKPodFrameworkOne. SKPodFrameworkOne. SKPodFrameworkOne."
   s.description  = "SKPodFrameworkOne. SKPodFrameworkOne.  SKPodFrameworkOne. SKPodFrameworkOne. SKPodFrameworkOne. SKPodFrameworkOne."
   s.homepage     = "https://github.com/srikanthvts/SKPodFrameworkOne"
