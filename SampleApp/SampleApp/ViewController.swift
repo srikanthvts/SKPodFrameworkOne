@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         
         let s1 = Services.sayHelloAgain()
         print(s1)
+        
+        let s2 = config.getSum(a: 5, b: 6)
+        print(s2)
     }
 
     override func didReceiveMemoryWarning() {

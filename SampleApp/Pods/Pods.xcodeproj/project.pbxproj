@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14AB68D06BB9E26CB873DC263BFB922C /* SKPodFrameworkOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 118118C43CAACEE06BE8A36C0FEEC2A6 /* SKPodFrameworkOne-dummy.m */; };
 		27FB906C95F01B48F9267AB935D0114F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		601768FA9BA5000400C186937DE4CBEC /* Pods-SampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E34C2187030136F6DB77752E5F4911 /* Pods-SampleApp-dummy.m */; };
-		7035BE438E46E47BF84D738C786867AB /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = D50869532284E5F57AEE972A02849635 /* Info.plist */; };
-		A86D439D3E98C4FBEFCBDBD9D024C7D8 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B5901D32C61D7AF465DE67308FA9AE /* Services.swift */; };
-		AB5804265579003C8ED6258746327A7F /* SKPodFrameworkOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6B38FC4F15EAC5FC430AAC8F06FB5B /* SKPodFrameworkOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A5F7637CA40513A31DAC030303EC33 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA5477A4279AF526506332AE846E14 /* Services.swift */; };
+		AB5804265579003C8ED6258746327A7F /* SKPodFrameworkOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52234AA5DB22852938A1AAAFDDD9A8BF /* SKPodFrameworkOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC4C15351866EF08BF8180F3C63E63E2 /* Pods-SampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E0836AB7F78D7F2563BA2715E694C8 /* Pods-SampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D37769B0BDAB4A6AE183E64CD94340A6 /* SKPodFrameworkOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BB61E79DF77260680A8F3C6ECBEED6 /* SKPodFrameworkOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6EA29B679EC300C1EF4C8C942B260D /* SKPodFrameworkOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E71488B1B92F878EE5EEB8D18A1260B4 /* SKPodFrameworkOne-dummy.m */; };
+		D37769B0BDAB4A6AE183E64CD94340A6 /* SKPodFrameworkOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1711034970E938A1D7622B9AA0C9B7 /* SKPodFrameworkOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D48FB2C83FF3CE4A26C375C8B5FFA386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DCE88704B5215FFB1997C3E532D1619C /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A40524799C4A78A19C6E9FE3CDBA63 /* config.swift */; };
+		DE040421971A684F43EC996BC9F2F013 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E26634A0E45A9B36D8500B124B3232AF /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,30 +30,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		118118C43CAACEE06BE8A36C0FEEC2A6 /* SKPodFrameworkOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKPodFrameworkOne-dummy.m"; sourceTree = "<group>"; };
+		11A40524799C4A78A19C6E9FE3CDBA63 /* config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = config.swift; path = SKPodFrameworkOne/config.swift; sourceTree = "<group>"; };
 		254B60E7ED0981F8277E681A5C641FD9 /* Pods-SampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26DE6B45424A8910B397238B167BD9BE /* SKPodFrameworkOne.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPodFrameworkOne.xcconfig; sourceTree = "<group>"; };
 		43E0836AB7F78D7F2563BA2715E694C8 /* Pods-SampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleApp-umbrella.h"; sourceTree = "<group>"; };
-		4EAC8BECB036ABFB7E40AD38513A3BDB /* SKPodFrameworkOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPodFrameworkOne-prefix.pch"; sourceTree = "<group>"; };
+		52234AA5DB22852938A1AAAFDDD9A8BF /* SKPodFrameworkOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPodFrameworkOne-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		727FF72F7F1B48B9F8CD6BDF9FA8A2EB /* SKPodFrameworkOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKPodFrameworkOne.modulemap; sourceTree = "<group>"; };
+		68BA5477A4279AF526506332AE846E14 /* Services.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Services.swift; path = SKPodFrameworkOne/Services.swift; sourceTree = "<group>"; };
+		703DD46FEF995D32BC41D62AEEA0190B /* SKPodFrameworkOne.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPodFrameworkOne.xcconfig; sourceTree = "<group>"; };
+		751E7FA9F2667648FA3702A9E19DE6FA /* SKPodFrameworkOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPodFrameworkOne-prefix.pch"; sourceTree = "<group>"; };
+		7813DF4EE3BFBC858D4B43C2A25EE3CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1711034970E938A1D7622B9AA0C9B7 /* SKPodFrameworkOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPodFrameworkOne.h; path = SKPodFrameworkOne/SKPodFrameworkOne.h; sourceTree = "<group>"; };
 		7F9C1B52153A73A7DC8D38CA889C05DE /* Pods-SampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-resources.sh"; sourceTree = "<group>"; };
-		8E6B38FC4F15EAC5FC430AAC8F06FB5B /* SKPodFrameworkOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPodFrameworkOne-umbrella.h"; sourceTree = "<group>"; };
 		91E34C2187030136F6DB77752E5F4911 /* Pods-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApp-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94BB61E79DF77260680A8F3C6ECBEED6 /* SKPodFrameworkOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPodFrameworkOne.h; path = SKPodFrameworkOne/SKPodFrameworkOne.h; sourceTree = "<group>"; };
+		95E95E0781F62078A35AABCD15F998E9 /* SKPodFrameworkOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKPodFrameworkOne.modulemap; sourceTree = "<group>"; };
 		AE0C4D71174D2426CC932D25E179C198 /* Pods-SampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleApp.modulemap"; sourceTree = "<group>"; };
-		B1B5901D32C61D7AF465DE67308FA9AE /* Services.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Services.swift; path = SKPodFrameworkOne/Services.swift; sourceTree = "<group>"; };
+		B1C3446DB1C2D7D8ABB49B2CE0432BB4 /* SKPodFrameworkOne.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SKPodFrameworkOne.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B7A31575AE090945CA1E40D24EE23C14 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleApp.framework; path = "Pods-SampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B43DF05AFE196C8F30EB9D8D47DBCC /* Pods-SampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-frameworks.sh"; sourceTree = "<group>"; };
-		C67420ED6540EBB55696DAACF3A07970 /* SKPodFrameworkOne.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SKPodFrameworkOne.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAAC90C777B1C8060FFA317199DB4287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D50869532284E5F57AEE972A02849635 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SKPodFrameworkOne/Info.plist; sourceTree = "<group>"; };
 		E04572C869A3D5AD2F9ED3F2E9ED0653 /* Pods-SampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E26634A0E45A9B36D8500B124B3232AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SKPodFrameworkOne/Info.plist; sourceTree = "<group>"; };
 		E3428D834FFEECC083594BDB801435A3 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E71488B1B92F878EE5EEB8D18A1260B4 /* SKPodFrameworkOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKPodFrameworkOne-dummy.m"; sourceTree = "<group>"; };
 		E8FD1522BAF9AB40CDEE436868B4393C /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		F73D21E59F98756BA8EA0630C9E3C8F7 /* SKPodFrameworkOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKPodFrameworkOne.framework; path = SKPodFrameworkOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F91D9282F228831915C3E270ECEDE7D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,19 +77,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02E9CA37CD14D100FD689F66A160D3D6 /* SKPodFrameworkOne */ = {
-			isa = PBXGroup;
-			children = (
-				D50869532284E5F57AEE972A02849635 /* Info.plist */,
-				B1B5901D32C61D7AF465DE67308FA9AE /* Services.swift */,
-				94BB61E79DF77260680A8F3C6ECBEED6 /* SKPodFrameworkOne.h */,
-				6054300F90E67D008DE40BA2ED990396 /* Pod */,
-				53EC8F193317054DCCBDA633CE29186B /* Support Files */,
-			);
-			name = SKPodFrameworkOne;
-			path = ../../SKPodFrameworkOne;
-			sourceTree = "<group>";
-		};
 		3D38DD4AFCE429A93844A67994A1F277 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,24 +85,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		53EC8F193317054DCCBDA633CE29186B /* Support Files */ = {
+		62A403C6E863433CB22889C26FD9D063 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F91D9282F228831915C3E270ECEDE7D4 /* Info.plist */,
-				727FF72F7F1B48B9F8CD6BDF9FA8A2EB /* SKPodFrameworkOne.modulemap */,
-				26DE6B45424A8910B397238B167BD9BE /* SKPodFrameworkOne.xcconfig */,
-				118118C43CAACEE06BE8A36C0FEEC2A6 /* SKPodFrameworkOne-dummy.m */,
-				4EAC8BECB036ABFB7E40AD38513A3BDB /* SKPodFrameworkOne-prefix.pch */,
-				8E6B38FC4F15EAC5FC430AAC8F06FB5B /* SKPodFrameworkOne-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../SampleApp/Pods/Target Support Files/SKPodFrameworkOne";
-			sourceTree = "<group>";
-		};
-		6054300F90E67D008DE40BA2ED990396 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C67420ED6540EBB55696DAACF3A07970 /* SKPodFrameworkOne.podspec */,
+				B1C3446DB1C2D7D8ABB49B2CE0432BB4 /* SKPodFrameworkOne.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -122,11 +97,25 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E619E8EB517D793B088B41A17F639E01 /* Development Pods */,
+				E737DC065DF58B617017E9E8A0197D74 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A100BAE75A5347C8D9519B1E5D41579A /* Products */,
 				3D38DD4AFCE429A93844A67994A1F277 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7E3C826AF70392023CD089A5F127478F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7813DF4EE3BFBC858D4B43C2A25EE3CE /* Info.plist */,
+				95E95E0781F62078A35AABCD15F998E9 /* SKPodFrameworkOne.modulemap */,
+				703DD46FEF995D32BC41D62AEEA0190B /* SKPodFrameworkOne.xcconfig */,
+				E71488B1B92F878EE5EEB8D18A1260B4 /* SKPodFrameworkOne-dummy.m */,
+				751E7FA9F2667648FA3702A9E19DE6FA /* SKPodFrameworkOne-prefix.pch */,
+				52234AA5DB22852938A1AAAFDDD9A8BF /* SKPodFrameworkOne-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../SampleApp/Pods/Target Support Files/SKPodFrameworkOne";
 			sourceTree = "<group>";
 		};
 		9E802E60A113B9EE20B7AF71223511DA /* Pods-SampleApp */ = {
@@ -172,12 +161,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E619E8EB517D793B088B41A17F639E01 /* Development Pods */ = {
+		E737DC065DF58B617017E9E8A0197D74 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02E9CA37CD14D100FD689F66A160D3D6 /* SKPodFrameworkOne */,
+				ECEB6D5757B6F5A6E0500618FF8CE53B /* SKPodFrameworkOne */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ECEB6D5757B6F5A6E0500618FF8CE53B /* SKPodFrameworkOne */ = {
+			isa = PBXGroup;
+			children = (
+				11A40524799C4A78A19C6E9FE3CDBA63 /* config.swift */,
+				E26634A0E45A9B36D8500B124B3232AF /* Info.plist */,
+				68BA5477A4279AF526506332AE846E14 /* Services.swift */,
+				7A1711034970E938A1D7622B9AA0C9B7 /* SKPodFrameworkOne.h */,
+				62A403C6E863433CB22889C26FD9D063 /* Pod */,
+				7E3C826AF70392023CD089A5F127478F /* Support Files */,
+			);
+			name = SKPodFrameworkOne;
+			path = ../../SKPodFrameworkOne;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5AF947B38D551428EDE66A1086B7B4D /* Build configuration list for PBXNativeTarget "SKPodFrameworkOne" */;
 			buildPhases = (
-				A1F19BEFA254C6CFFC11D320717D0E35 /* Sources */,
+				2ADEA922147C1C2BEF4A4118AFC60A6F /* Sources */,
 				8AA39B880713D962C930CD45436E53EE /* Frameworks */,
 				44A2CC02E7D8D021F22913847F5236BA /* Headers */,
 			);
@@ -266,13 +269,14 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1F19BEFA254C6CFFC11D320717D0E35 /* Sources */ = {
+		2ADEA922147C1C2BEF4A4118AFC60A6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7035BE438E46E47BF84D738C786867AB /* Info.plist in Sources */,
-				A86D439D3E98C4FBEFCBDBD9D024C7D8 /* Services.swift in Sources */,
-				14AB68D06BB9E26CB873DC263BFB922C /* SKPodFrameworkOne-dummy.m in Sources */,
+				DCE88704B5215FFB1997C3E532D1619C /* config.swift in Sources */,
+				DE040421971A684F43EC996BC9F2F013 /* Info.plist in Sources */,
+				85A5F7637CA40513A31DAC030303EC33 /* Services.swift in Sources */,
+				CE6EA29B679EC300C1EF4C8C942B260D /* SKPodFrameworkOne-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +302,7 @@
 /* Begin XCBuildConfiguration section */
 		044F9AC62E30FBCA663C90708564A358 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DE6B45424A8910B397238B167BD9BE /* SKPodFrameworkOne.xcconfig */;
+			baseConfigurationReference = 703DD46FEF995D32BC41D62AEEA0190B /* SKPodFrameworkOne.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -332,7 +336,7 @@
 		};
 		231409E356086C28FB4E36959868D3A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DE6B45424A8910B397238B167BD9BE /* SKPodFrameworkOne.xcconfig */;
+			baseConfigurationReference = 703DD46FEF995D32BC41D62AEEA0190B /* SKPodFrameworkOne.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
