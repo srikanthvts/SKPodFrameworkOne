@@ -1,5 +1,5 @@
 PODS:
-  - SKPodFrameworkOne (1.1.2)
+  - SKPodFrameworkOne (1.1.3)
 
 DEPENDENCIES:
   - SKPodFrameworkOne (from `../SKPodFrameworkOne`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../SKPodFrameworkOne"
 
 SPEC CHECKSUMS:
-  SKPodFrameworkOne: c6ba69176fa181377d27b32611ffaf95e6aeb5b5
+  SKPodFrameworkOne: ed92dd60c3314387fd5ac2af63cc07a4d053f885
 
 PODFILE CHECKSUM: fb677055672ba5cf98a1bd1532d3fd81deffc4b7
 

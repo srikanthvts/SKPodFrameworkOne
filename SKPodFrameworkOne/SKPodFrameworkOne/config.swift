@@ -14,4 +14,7 @@ public class config{
     public static func getSum(a :Int, b: Int) ->Int{
         return a+b
     }
+    public static func getDiff(a :Int, b: Int) ->Int{
+        return a-b
+    }
 }

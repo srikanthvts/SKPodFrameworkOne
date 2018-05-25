@@ -22,6 +22,10 @@ class ViewController: UIViewController {
         
         let s2 = config.getSum(a: 5, b: 6)
         print(s2)
+        
+        
+        let s3 = config.getDiff(a: 5, b: 6)
+        print(s3)
     }
 
     override func didReceiveMemoryWarning() {
