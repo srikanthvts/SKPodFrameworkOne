@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F3D127CD20B80CFE0053BC24 /* SKPodFrameworkOne.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D127CB20B80CFE0053BC24 /* SKPodFrameworkOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3D127D420B80D370053BC24 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D127D320B80D370053BC24 /* Services.swift */; };
+		F3D1281220B81A3F0053BC24 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D1281120B81A3F0053BC24 /* config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		F3D127CB20B80CFE0053BC24 /* SKPodFrameworkOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKPodFrameworkOne.h; sourceTree = "<group>"; };
 		F3D127CC20B80CFE0053BC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D127D320B80D370053BC24 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		F3D1281120B81A3F0053BC24 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				F3D127CB20B80CFE0053BC24 /* SKPodFrameworkOne.h */,
 				F3D127D320B80D370053BC24 /* Services.swift */,
+				F3D1281120B81A3F0053BC24 /* config.swift */,
 				F3D127CC20B80CFE0053BC24 /* Info.plist */,
 			);
 			path = SKPodFrameworkOne;
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D127D420B80D370053BC24 /* Services.swift in Sources */,
+				F3D1281220B81A3F0053BC24 /* config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
