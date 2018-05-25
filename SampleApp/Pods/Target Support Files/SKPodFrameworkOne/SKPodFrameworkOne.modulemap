@@ -1,0 +1,6 @@
+framework module SKPodFrameworkOne {
+  umbrella header "SKPodFrameworkOne-umbrella.h"
+
+  export *
+  module * { export * }
+}
